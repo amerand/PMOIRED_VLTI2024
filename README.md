@@ -12,7 +12,7 @@ git clone https://github.com/amerand/PMOIRED_VLTI2024
 python3 -m venv ./pmoired
 source ./pmoired/bin/activate
 pip3 install pmoired==1.2.10 jupyterlab ipympl
-jupyter-lab
+deactivate
 ```
 
 getting zip files using `wget`:
@@ -25,13 +25,20 @@ unzip *zip
 python3 -m venv ./pmoired
 source ./pmoired/bin/activate
 pip3 install pmoired==1.2.10 jupyterlab ipympl
-jupyter-lab
+deactivate
+```
+# run the tutorials
+
+```
+cd pmoired_tutorial
+source ./pmoired/bin/activate
+jupytre-lab
 ```
 
-to exit the environment, type `deactivate`.
+to exit the environment, type `deactivate` after quitting `jupyter-lab`.
 
 ## Requirements
 - Python 3.10 or newer
 - A web-browser to run [Jupyter-lab](https://jupyter.org/)
-- about 700Mb on disk (tutorial + full Python3 environment for `PMOIRED`)
+- about 800Mb on disk (notebooks, data and full Python3 environment for `PMOIRED`)
 - tested on Unix (MacOS and Linux)
