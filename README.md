@@ -17,7 +17,7 @@ if you already have `PMOIRED`, you still need the latest version (1.2.10, from S
 python3 -m venv ./pmoired
 source ./pmoired/bin/activate
 pip3 install pmoired==1.2.10 jupyterlab ipympl
-jupyter-lab
+jupyter-lab tutorial1.ipynb
 ```
 
 After exiting `jupyter-lab` (ctrl-c), you can type `deactivate` in the terminal to go back to your default python3 installation.
