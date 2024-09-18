@@ -6,7 +6,7 @@ git clone https://github.com/amerand/PMOIRED_VLTI2024
 cd PMOIRED_VLTI2024
 ```
 
-Or get the [.zip archive](https://github.com/amerand/PMOIRED_VLTI2024/archive/refs/heads/main.zip)):
+Or get the [.zip archive](https://github.com/amerand/PMOIRED_VLTI2024/archive/refs/heads/main.zip):
 ```
 unzip PMOIRED_VLTI2024-main.zip
 cd PMOIRED_VLTI2024-main
