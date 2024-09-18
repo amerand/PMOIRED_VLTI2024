@@ -33,8 +33,10 @@ Assuming you already are in directory `pmoired_tutorial`
 
 ```
 source ./pmoired/bin/activate
-jupyter-lab; deactivate
+jupyter-lab
 ```
+to return to your python default installation, type `deactivate` after exciting `jupyter-lab`.
+
 
 ## Requirements
 - Python 3.10 or newer
