@@ -29,13 +29,12 @@ deactivate
 ```
 # run the tutorials
 
-```
-cd pmoired_tutorial
-source ./pmoired/bin/activate
-jupytre-lab
-```
+Assuming you already are in directory `pmoired_tutorial`
 
-to exit the environment, type `deactivate` after quitting `jupyter-lab`.
+```
+source ./pmoired/bin/activate
+jupyter-lab; deactivate
+```
 
 ## Requirements
 - Python 3.10 or newer
