@@ -21,7 +21,7 @@ mkdir pmoired_tutorial
 cd pmoired_tutorial
 wget https://github.com/amerand/PMOIRED_examples/archive/refs/heads/main.zip
 wget https://github.com/amerand/PMOIRED_VLTI2024/archive/refs/heads/main.zip
-unzip *zip
+unzip *.zip*
 python3 -m venv ./pmoired
 source ./pmoired/bin/activate
 pip3 install pmoired==1.2.10 jupyterlab ipympl
@@ -36,7 +36,6 @@ source ./pmoired/bin/activate
 jupyter-lab
 ```
 to return to your python default installation, type `deactivate` after exciting `jupyter-lab`.
-
 
 ## Requirements
 - Python 3.10 or newer
